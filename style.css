@@ -1,13 +1,11 @@
-*{
-    box-sizing: border-box;
-}
-/*modification général de la page*/
-html,body {
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   line-height: 1.4;
+  box-sizing: border-box;
 }
+/*modification général de la page*/
 a {
   text-decoration: none;
   color: black;
@@ -17,12 +15,123 @@ ul {
   padding: 0;
 }
 
-/* Modification du header */
-header{
-    
-
+/* pour les élement avec 1 ligne evite les repetitions*/
+.display-flex {
+  display: flex;
 }
-.img-header{
-    width: 20%;
-    height: 20%;
+
+/* Modification des titres H1,H2,H3...*/
+h1 {
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Modification du header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 35px 5px 25px;
+}
+.img-logo-header {
+  width: 20%;
+  margin-right: 10em;
+}
+.img-section-one:hover {
+    transform: scale(1.3);
+    transition: transform 450ms ease-in-out;
+}
+.respiration-nav {
+  padding-left: 2em;
+  padding-right: 1em;
+}
+.effect-hover {
+  --b: 0.3em;   /* the thickness of the line */
+  --c: #d8d81f; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.effect-hover:hover {
+  --_p: 100%;
+  --_s: .3s;
+}
+.menu-burger-nav{
+  display: none;
+}
+
+
+/* Modification de la premiére section */
+section.section-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 3em;
+}
+img.img-section-one {
+  width: 15%;
+  margin-right: 10em;
+}
+.text-banniere {
+  color: white;
+  margin: 20px 0px 10px 0px;
+}
+.block-btn {
+    margin-top: 5em;
+    display: flex;
+}
+.btn-contacter-moi {
+    color: #d8d81f;
+    border: 1px solid #d8d81f;
+    padding: 13px;
+    border-radius: 15px;
+}
+.btn-cv-download {
+    border: 1px solid;
+    padding: 13px;
+    border-radius: 15px;
+    background-color: #d8D81f;
+    margin-left: 5em;
+}
+a.btn-contacter-moi:hover {
+    opacity: 0.7;
+}
+a.btn-cv-download:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+
+@media screen and (max-width: 950px){
+  /* effet pour le menu burger */
+  .menu-burger-nav{
+    display: flex;
+  }
+  .icone-burger {
+    font-size: 28px !important;
+}
+.block-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255 255 255 / 90%);
+    backdrop-filter: blur(8px);
+    margin-left: -100%;
+    transition: all 1.9s ease;
+}
+
+
 }
