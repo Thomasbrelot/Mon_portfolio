@@ -1,4 +1,11 @@
-/* texte affichage solo */
+let toggle = document.getElementById('toggle');
+let body = document.getElementById('body');
+
+toggle.addEventListener('click', function () {
+  body.classList.toggle('open');
+});
+
+/* texte H1 ecriture automatique avec plusieurs phrases*/
 var typed = new Typed('#element', {
   strings: [
     "Hi! I'm Thomas",
@@ -10,4 +17,3 @@ var typed = new Typed('#element', {
   backSpeed: 100,
   loop: true,
 });
-
