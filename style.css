@@ -199,5 +199,27 @@ a.btn-cv-download:hover {
   img.img-section-one {
     width: 20%;
     margin-top: 5em;
+  }
 }
+
+@media screen and (max-width: 425px) {
+  section.section-one {
+    padding: 1em;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .bloc-banniere-header {
+    font-size: 10px;
+  }
+  img.img-section-one {
+    margin-top: 3em;
+  }
+}
+
+/* Pour les écrans en dessous de 290 comme le Galaxy Fold */
+@media screen and (max-width: 290px) {
+  .block-btn {
+    text-align: center;
+  }
 }
