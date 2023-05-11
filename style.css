@@ -230,6 +230,14 @@ h2 {
     margin-top: 5em;
     margin-bottom: 1em;
   }
+
+  h2 {
+    font-size: 25px;
+  }
+  .module-title span {
+    font-size: 60px;
+    top: -26px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -244,6 +252,14 @@ h2 {
   }
   img.img-section-one {
     margin-top: 3em;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  .module-title span {
+    font-size: 45px;
+    top: -18px;
   }
 }
 
