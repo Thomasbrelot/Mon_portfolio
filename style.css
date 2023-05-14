@@ -42,7 +42,7 @@ header {
   margin: 5px 35px 5px 25px;
 }
 .img-logo-header {
-  width: 20%;
+  width: 25%;
 }
 .img-section-one:hover {
   transform: scale(1.3);
@@ -91,7 +91,7 @@ img.img-section-one {
 }
 .text-banniere {
   color: white;
-  margin: 20px 0px 10px 0px;
+  margin: 30px 0px 10px 0px;
 }
 .block-btn {
   margin-top: 5em;
@@ -177,7 +177,7 @@ a.btn-cv-download:hover {
   }
   .icone-burger {
     display: flex;
-    font-size: 28px !important;
+    font-size: 36px !important;
   }
   .open .icone-burger {
     display: none;
@@ -242,7 +242,7 @@ a.btn-cv-download:hover {
   img.img-section-one {
     width: 35%;
     margin-top: 5em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 
   .module-title span {
@@ -253,7 +253,7 @@ a.btn-cv-download:hover {
 
 @media screen and (max-width: 450px) {
   h1 {
-    font-size: 20px;
+    font-size: 23px;
   }
   h2 {
     font-size: 20px;
@@ -263,13 +263,14 @@ a.btn-cv-download:hover {
     padding: 1em;
   }
   .bloc-banniere-header {
-    font-size: 10px;
+    font-size: 13px;
+    text-align: center;
+    margin: 5px 15px 0px 15px;
   }
   img.img-section-one {
     margin-top: 3em;
   }
 
-  
   .module-title span {
     font-size: 45px;
     top: -18px;
