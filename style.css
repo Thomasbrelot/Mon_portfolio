@@ -28,6 +28,11 @@ h1 {
   font-size: 35px;
   color: white;
 }
+h2 {
+  font-size: 30px;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+}
 
 /* Modification du header */
 header {
@@ -79,7 +84,10 @@ section.section-one {
   padding: 4em;
 }
 img.img-section-one {
-  width: 15%;
+  width: 28%;
+  margin: 0px 6em 0px 5em;
+  -webkit-filter: drop-shadow(5px 5px 5px #d8d81f);
+  filter: drop-shadow(4px 5px 5px #d8d81f);
 }
 .text-banniere {
   color: white;
@@ -126,11 +134,6 @@ a.btn-cv-download:hover {
   font-weight: 300;
   color: #5b5963;
   margin-top: 45px;
-}
-h2 {
-  font-size: 30px;
-  margin: 0 0 30px;
-  text-transform: uppercase;
 }
 .module-title span {
   font-size: 100px;
