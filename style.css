@@ -192,6 +192,9 @@ a.btn-cv-download:hover {
   .open .img-logo-header {
     z-index: 99;
   }
+  img.img-section-one {
+    margin: 0;
+  }
   /* mise en page de la navigation */
   .open .mobil-menu {
     display: flex;
@@ -230,19 +233,37 @@ a.btn-cv-download:hover {
 @media screen and (max-width: 650px) {
   /* Adaptation du header pour mobil */
   h1 {
-    font-size: 25px;
+    font-size: 36px;
     text-align: center;
   }
   h2 {
     font-size: 25px;
   }
+  .img-logo-header {
+    width: 25%;
+  }
+  .block-btn {
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+  }
   .mise-en-place {
     flex-direction: column;
   }
+  .icone-burger {
+    display: flex;
+    font-size: 48px !important;
+  }
+  .text-banniere {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 3em;
+  }
   img.img-section-one {
-    width: 35%;
-    margin-top: 5em;
-    margin-bottom: 2em;
+    width: 60%;
+    margin: 50px 0px 40px 0px;
   }
 
   .module-title span {
@@ -262,19 +283,16 @@ a.btn-cv-download:hover {
   section.section-one {
     padding: 1em;
   }
+
   .bloc-banniere-header {
     font-size: 15px;
     text-align: center;
     margin: 5px 15px 0px 15px;
   }
-  img.img-section-one {
-    width: 50%;
-    margin-top: 3em;
-  }
 
   .module-title span {
-    font-size: 45px;
-    top: -18px;
+    font-size: 50px;
+    top: -20px;
   }
 }
 
