@@ -253,21 +253,22 @@ a.btn-cv-download:hover {
 
 @media screen and (max-width: 450px) {
   h1 {
-    font-size: 23px;
+    font-size: 25px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   section.section-one {
     padding: 1em;
   }
   .bloc-banniere-header {
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     margin: 5px 15px 0px 15px;
   }
   img.img-section-one {
+    width: 50%;
     margin-top: 3em;
   }
 
