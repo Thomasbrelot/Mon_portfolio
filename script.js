@@ -17,3 +17,17 @@ var typed = new Typed('#element', {
   backSpeed: 100,
   loop: true,
 });
+
+const carousel = document.querySelector('.carousel');
+const prevBtn = carousel.querySelector('.prev');
+const nextBtn = carousel.querySelector('.next');
+const slides = carousel.querySelector('.slides');
+const slideWidth = carousel.querySelector('.slide').offsetWidth;
+
+prevBtn.addEventListener('click', () => {
+  slides.scrollLeft -= slideWidth;
+});
+
+nextBtn.addEventListener('click', () => {
+  slides.scrollLeft += slideWidth;
+});
